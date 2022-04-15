@@ -1,0 +1,117 @@
+* {
+    background-color: rgb(170, 195, 108);
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(141, 46, 46);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    background-color: rgb(235, 179, 158);
+    margin: 0% 10%;
+    width: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        display: grid;
+        
+/*     formato del 
+        grid-template:  "contenido-fila" alto-fila
+                        "contenido-fila" alto-fila
+                        "contenido-fila" alto-fila
+                        /ancho-columna; 
+*/
+
+
+        grid-template:  "header " 20% 
+                        "left " auto 
+                        "contenido " auto
+                        /auto;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    li {
+        font-size: 85%;
+
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        display: grid;
+
+/*     formato del 
+        grid-template:  "contenido-fila contenido-fila " alto-fila
+                        "contenido-fila contenido-fila " alto-fila
+                        "contenido-fila contenido-fila " alto-fila
+                        /ancho-columna ancho-columna; 
+*/
+
+        grid-template:  "header header" 20% 
+                        "left contenido" auto
+                        /auto auto;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+}
+
+.header {
+    grid-area: header;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 1%;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(110, 61, 22);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(181, 70, 70);
+
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+/* img {
+    opacity: 0.80;
+    transition: opacity 2500ms;
+}
+
+img:hover {
+    opacity: 0.20;
+    transition: opacity 2500ms;
+} */
+
+.titulo {
+    font-weight: bold;
+}
+
+.descripcion {
+    text-align: left;
+    margin-left: 10px;
+}
