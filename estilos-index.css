@@ -1,54 +1,91 @@
 * {
-    background-color: rgb(255, 230, 200);
     font-family: Helvetica, Arial, sans-serif;
-    color: rgb(255, 68, 0);
 }
 
 h1 {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 90px;
-    background-color: rgb(53, 49, 49);
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 50px 240px;
 }
 
 .header {
-    grid-column: 1 / 11;
-    grid-row: 1 / 1;
     flex-direction: row;
     text-decoration: none;
     text-align: center;
 }
 
 .titulo {
-    grid-column: 1 / 11;
-    grid-row: 2 / 2;
     font-weight: bold;
-    margin-top: 10px;
     text-align: center;
 }
 
 li {
     display: inline-block;
-    margin-left: 5%;
-    font-weight: bold;
 }
 
 a {
-    color: rgb(31, 6, 85);
-    font-weight: bold;
     text-decoration: none;
+}
 
+img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+/*     COLORES    */
+
+* {
+    background-color: rgb(167, 171, 198);
+    color: rgb(230, 226, 226);
+    }
+
+h1 {
+    background-color: rgb(8, 129, 16);
+    animation-name: anim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
 a:hover {
-    color: orangered;
+    color: rgb(72, 54, 106);
+}
 
+@keyframes anim{
+    0% {color: rgb(55, 32, 116);}
+   25% {color: rgb(38, 8, 88);} 
+   50% {color: black;} 
+   75% {color: rgb(38, 8, 88);}    
+  100% {color: rgb(55, 32, 116);}  
+}
+
+.descripcion {
+    color: rgb(38, 8, 88);
+}
+
+/*  RESPONSIVE   */
+
+.container {
+    grid-template-rows: 5vw 20vw 40vw;
+}
+
+h1 {
+    font-size: 7vw;
+}
+
+.header {
+    grid-column: 1 / 10;
+    grid-row: 1 / 1;
+}
+
+.titulo {
+    margin-top: 0.7vw;
+    grid-column: 1 / 11;
+    grid-row: 2 / 2;
 }
 
 .left {
@@ -57,11 +94,40 @@ a:hover {
 }
 
 img {
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-    height: 50%;
-    width: 80%;
+    height: 50vh;
+    width: 90%;
 }
 
+.descripcion {
+    margin: 2% 5%;
+}
 
+@media screen and (min-width: 900px)  {
+    .header {
+        font-size: 1.5vw;
+    }
+    li {
+        margin-left: 5%;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 900px)  {
+    .header {
+        font-size: 2vw;
+    }
+    li {
+        margin-left: 4%;
+        font-weight:normal;
+    }
+}
+
+@media screen and (max-width: 700px)  {
+    .header {
+        font-size: 2.4vw;
+    }
+    li {
+        margin-left: 2%;
+        font-weight: normal;
+    }
+}
