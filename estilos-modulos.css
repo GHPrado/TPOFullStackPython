@@ -2,7 +2,7 @@
     grid-column: 1 / 11;
 }
 
-.left {
+.left, .foto1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(8, 1fr);
