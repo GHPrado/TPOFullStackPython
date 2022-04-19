@@ -27,7 +27,7 @@ img:hover {
 /*  RESPONSIVE   */
 
 .container {
-    grid-template-rows: 5vw 20vw 75vw 40vw;
+    grid-template-rows: 5vw 20vw 75vw 60vw;
 }
 
 .left {
@@ -59,7 +59,7 @@ img:hover {
 
 @media screen and (max-width: 750px)  {
     .container {
-        grid-template-rows: 5vw 20vw 55vw 40vw;
+        grid-template-rows: 5vw 20vw 55vw 60vw;
     }
 
     .header {
@@ -96,12 +96,12 @@ img:hover {
 
 @media screen and (max-width: 650px)  {
     .container {
-        grid-template-rows: 5vw 20vw 65vw 40vw;
+        grid-template-rows: 5vw 20vw 65vw 60vw;
     }
 }
 
 @media screen and (max-width: 550px)  {
     .container {
-        grid-template-rows: 5vw 20vw 75vw 40vw;
+        grid-template-rows: 5vw 20vw 75vw 60vw;
     }
 }

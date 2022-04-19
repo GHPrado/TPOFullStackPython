@@ -100,6 +100,7 @@ img {
 
 .descripcion {
     margin: 2% 5%;
+    line-height: 2vw;
 }
 
 @media screen and (min-width: 900px)  {
