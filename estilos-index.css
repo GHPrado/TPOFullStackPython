@@ -63,6 +63,18 @@ a:hover {
   100% {color: rgb(55, 32, 116);}  
 }
 
+@keyframes anim2{
+    0% {opacity: 0.90;}
+    12% {opacity: 0.70;}
+    25% {opacity: 0.50;}
+    37% {opacity: 0.20;}
+    50% {opacity: 0;}
+    62% {opacity: 0.2;}
+    75% {opacity: 0.50;} 
+    87% {opacity: 0.70;} 
+    100% {opacity: 0.90;}    
+}
+
 .descripcion {
     color: rgb(38, 8, 88);
 }
@@ -99,8 +111,25 @@ img {
 }
 
 .descripcion {
-    margin: 2% 5%;
-    line-height: 2vw;
+    grid-column: 1 / 11;
+    grid-row: 3 /3;
+    margin: 2% 10%;
+    line-height: 2vw; 
+    font-size: 2vw;
+    text-align: justify;
+}
+
+img {
+    animation-name: anim2;
+    animation-duration: 10s;
+    animation-iteration-count: 10s;
+    opacity: 0.95;
+    transition: opacity 2500ms;
+}
+
+img:hover {
+    opacity: 0.05;
+    transition: opacity 2500ms;
 }
 
 @media screen and (min-width: 900px)  {

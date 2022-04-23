@@ -8,7 +8,6 @@
     grid-template-rows: repeat(8, 1fr);
 }
 
-
 @media screen and (min-width: 900px)  {
     .header {
         font-size: 1.5vw;
