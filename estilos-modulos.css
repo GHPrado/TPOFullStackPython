@@ -1,11 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .left {
     grid-column: 1 / 11;
 }
 
 .left, .foto1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-row: 4 /4;
+
+}
+
+.descripcion {
+    grid-column: 1 / 11;
+    grid-row: 3 /3;
+    line-height: 2vw; 
+    font-size: 2vw;
+    text-align: justify;
 }
 
 @media screen and (min-width: 900px)  {

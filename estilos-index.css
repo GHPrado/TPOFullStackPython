@@ -7,11 +7,6 @@ h1 {
     font-family: 'Permanent Marker', cursive;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-
 .header {
     flex-direction: row;
     text-decoration: none;
@@ -80,9 +75,9 @@ a:hover {
 }
 
 /*  RESPONSIVE   */
-
 .container {
-    grid-template-rows: 5vw 20vw 40vw;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 h1 {
