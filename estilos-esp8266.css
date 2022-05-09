@@ -51,6 +51,13 @@ img:hover {
     transition: opacity 2500ms;
 }
 
+.foto1 {
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
 /*     COLORES    */
 
 * {

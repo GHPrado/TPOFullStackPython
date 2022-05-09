@@ -72,6 +72,9 @@ a:hover {
 
 .descripcion {
     color: rgb(38, 8, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*  RESPONSIVE   */

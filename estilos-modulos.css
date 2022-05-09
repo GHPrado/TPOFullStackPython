@@ -13,6 +13,7 @@
     grid-template-rows: repeat(9, 1fr);
     grid-row: 4 /4;
 
+
 }
 
 .descripcion {
@@ -21,6 +22,11 @@
     line-height: 2vw; 
     font-size: 2vw;
     text-align: justify;
+}
+p{
+    display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 @media screen and (min-width: 900px)  {
