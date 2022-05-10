@@ -64,6 +64,12 @@ h1 {
     animation-iteration-count: infinite;
 }
 
+label, p {
+animation-name: anim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
 a:hover {
     color: rgb(72, 54, 106);
 }
