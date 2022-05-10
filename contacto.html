@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <LINK REL=StyleSheet HREF="estilos-index.css" TYPE="text/css" MEDIA=screen>
-    <LINK REL=StyleSheet HREF="estilos-esp8266.css" TYPE="text/css" MEDIA=screen>
+    <LINK REL=StyleSheet HREF="estilos-contacto.css" TYPE="text/css" MEDIA=screen>
+
+        <script src="contacto.js"> </script>   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,19 +31,24 @@
             </ul>
         </nav>
         <h1 class="titulo">ESP8266 PARA IOT</h1>
+<div class="left">
 
-        <div class="left">
+    <p>Complete los siguientes datos para contactarnos:</p>
 
-        </div>
-        <div class="foto1">
+    <form action="/action_page.php" id="form1">
+        <label for="fnombre">Nombre:</label><input type="text" id="fnombre" name="fnombre"><br><br>
+        <label for="fapellido">Apellido:</label><input type="text" id="fapellido" name="fapellido"><br><br>
+        <label for="ftelefono">Telefono:</label><input type="text" id="ftelefono" name="ftelefono"><br><br>
+        <label for="femail">E-Mail:</label><input type="text" id="femail" name="femail"><br><br>
+        <label for="fcoment">Comentario:<textarea name="comentario" rows="10" cols="60"></textarea><br><br>
 
-        </div>
-        <br>
-        <div class="descripcion">
-           
-            
-        </div>
-    </section>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+    </form>
+
+</div>
+</section>
 </body>
 
 </html>
+
