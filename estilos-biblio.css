@@ -1,0 +1,184 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.header {
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+}
+
+.titulo {
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.foto1 {
+    align-content: center;
+    text-align: center;
+}
+
+.descripcion {
+    text-align: justify;
+}
+
+img {
+    opacity: 0.20;
+    transition: opacity 2500ms;
+}
+
+img:hover {
+    opacity: 0.90;
+    transition: opacity 2500ms;
+}
+
+.foto1 {
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/*     COLORES    */
+
+* {
+    background-color: rgb(167, 171, 198);
+    color: rgb(230, 226, 226);
+    }
+
+h1 {
+    background-color: rgb(8, 129, 16);
+    animation-name: anim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+a:hover {
+    color: rgb(72, 54, 106);
+}
+
+@keyframes anim{
+    0% {color: rgb(55, 32, 116);}
+   25% {color: rgb(38, 8, 88);} 
+   50% {color: black;} 
+   75% {color: rgb(38, 8, 88);}    
+  100% {color: rgb(55, 32, 116);}  
+}
+
+@keyframes anim2{
+    0% {opacity: 0.90;}
+    12% {opacity: 0.70;}
+    25% {opacity: 0.50;}
+    37% {opacity: 0.20;}
+    50% {opacity: 0.05;}
+    62% {opacity: 0.2;}
+    75% {opacity: 0.50;} 
+    87% {opacity: 0.70;} 
+    100% {opacity: 0.90;}    
+}
+
+.descripcion {
+    color: rgb(38, 8, 88);
+}
+
+.foto1 {
+    color: rgb(38, 8, 88);
+}
+
+/*  RESPONSIVE   */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+h1 {
+    font-size: 7vw;
+}
+
+.header {
+    grid-column: 1 / 10;
+    grid-row: 1 / 1;
+}
+
+.titulo {
+    margin-top: 0.7vw;
+    grid-column: 1 / 11;
+    grid-row: 2 / 2;
+}
+
+
+
+img {
+    height: 50vh;
+    width: 90%;
+}
+
+.descripcion {
+    line-height: 2vw; 
+    font-size: 2vw;
+    text-align: justify;
+    grid-column: 4 /11;
+    grid-row: 3 / 3;
+    margin: 2% 5%;
+}
+
+.imagen {
+    animation-name: anim2;
+    animation-duration: 10s;
+    animation-iteration-count: 10s;
+    opacity: 0.95;
+    transition: opacity 2500ms;
+}
+
+.imagen:hover {
+    opacity: 0.05;
+    transition: opacity 2500ms;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 1 /10;
+    grid-row: 3 /3;
+
+}
+
+.foto1 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 3;
+}
+
+
+@media screen and (min-width: 900px)  {
+    .header {
+        font-size: 1.5vw;
+    }
+    li {
+        margin-left: 5%;
+        font-weight: bold;
+    }
+
+    .foto1 {
+        font-weight: bold;
+    }
+}
