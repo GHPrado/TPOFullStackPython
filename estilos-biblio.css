@@ -54,8 +54,8 @@ img:hover {
 .foto1 {
 
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /*     COLORES    */
@@ -63,7 +63,7 @@ img:hover {
 * {
     background-color: rgb(167, 171, 198);
     color: rgb(230, 226, 226);
-    }
+}
 
 h1 {
     background-color: rgb(8, 129, 16);
@@ -77,23 +77,23 @@ a:hover {
 }
 
 @keyframes anim{
-    0% {color: rgb(55, 32, 116);}
-   25% {color: rgb(38, 8, 88);} 
-   50% {color: black;} 
-   75% {color: rgb(38, 8, 88);}    
-  100% {color: rgb(55, 32, 116);}  
+                0% {color: rgb(55, 32, 116);}
+                25% {color: rgb(38, 8, 88);} 
+                50% {color: black;} 
+                75% {color: rgb(38, 8, 88);}    
+                100% {color: rgb(55, 32, 116);}  
 }
 
 @keyframes anim2{
-    0% {opacity: 0.90;}
-    12% {opacity: 0.70;}
-    25% {opacity: 0.50;}
-    37% {opacity: 0.20;}
-    50% {opacity: 0.05;}
-    62% {opacity: 0.2;}
-    75% {opacity: 0.50;} 
-    87% {opacity: 0.70;} 
-    100% {opacity: 0.90;}    
+                0% {opacity: 0.90;}
+                12% {opacity: 0.70;}
+                25% {opacity: 0.50;}
+                37% {opacity: 0.20;}
+                50% {opacity: 0.05;}
+                62% {opacity: 0.2;}
+                75% {opacity: 0.50;} 
+                87% {opacity: 0.70;} 
+                100% {opacity: 0.90;}    
 }
 
 .descripcion {
@@ -126,15 +126,13 @@ h1 {
     grid-row: 2 / 2;
 }
 
-
-
 img {
     height: 50vh;
     width: 90%;
 }
 
 .descripcion {
-    line-height: 2vw; 
+    line-height: 2vw;
     font-size: 2vw;
     text-align: justify;
     grid-column: 4 /11;
@@ -168,11 +166,11 @@ img {
     grid-row: 3 / 3;
 }
 
-
-@media screen and (min-width: 900px)  {
+@media screen and (min-width: 900px) {
     .header {
         font-size: 1.5vw;
     }
+
     li {
         margin-left: 5%;
         font-weight: bold;
