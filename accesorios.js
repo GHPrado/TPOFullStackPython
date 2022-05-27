@@ -1,0 +1,43 @@
+var myObject = new Vue({
+    el: '#app',
+    data: {
+        fotos: [
+            { src: 'accesorios/bateria-de-litio-polimero-606090p-37-v-8000-mah-li-ion.jpg', titulo: 'bateria litio' },
+            { src: 'accesorios/bateria-recargable-18650-2800mah.jpg', titulo: 'bateria recargable' },
+            { src: 'accesorios/buzzer-5-15v-continuo.jpg', titulo: 'buzzer continuo' },
+            { src: 'accesorios/display-lcd-16x2-azul.jpg', titulo: 'display lcd 16x2' },
+            { src: 'accesorios/display-oled-azul-096-interfaz-i2c.jpg', titulo: 'display oled' },
+            { src: 'accesorios/kit-rfid-mfrc-522.jpg', titulo: 'kit rfid' },
+            { src: 'accesorios/llavero-tag-rfid-125khz.jpg', titulo: 'llavero tag rfid' },
+            { src: 'accesorios/modulo esp01 a USB.jpg', titulo: 'esp01 a USB' },
+            { src: 'accesorios/modulo Esp01 relay.jpg', titulo: 'esp01 relay' },
+            { src: 'accesorios/modulo-acelerometro-freescale-mma7361.jpg', titulo: 'acelerometro' },
+            { src: 'accesorios/modulo-control-remoto-y-receptor-hx1838.jpg', titulo: 'control remoto' },
+            { src: 'accesorios/modulo-de-reconocimiento-de-voz.jpg', titulo: 'reconocimiento voz' },
+            { src: 'accesorios/modulo-gps-gy-neo6mv2-con-antena.jpg', titulo: 'gps con antena' },
+            { src: 'accesorios/modulo-indicador-de-carga-de-bateria-de-litio-37v.jpg', titulo: 'indicador carga' },
+            { src: 'accesorios/modulo-joystick-pulsador.jpg', titulo: 'joystick pulsador' },
+            { src: 'accesorios/modulo-matriz-de-leds-8x8-basado-en-controlador-max7219.jpg', titulo: 'matriz de leds' },
+            { src: 'accesorios/modulo-oximetro-y-sensor-pulso-cardiaco.jpg', titulo: 'oximetro y pulso' },
+            { src: 'accesorios/modulo-rdm6300-lector-rfid-125khz.jpg', titulo: 'lector rfid' },
+            { src: 'accesorios/modulo-semaforo-3-leds-rojo-amarillo-verde.jpg', titulo: 'semaforo' },
+            { src: 'accesorios/modulo-sensor-de-nivel-de-agua.jpg', titulo: 'sensor nivel de agua' },
+            { src: 'accesorios/modulo-sensor-infrarrojo-seguidor-de-linea-tcrt5000.jpg', titulo: 'seguidor infrarrojo' },
+            { src: 'accesorios/modulo-sensor-infrarrojo-seguidor-de-linea-tcrt5000-salida-digital-y-analogica.jpg', titulo: 'seguidor digit/analogico' },
+            { src: 'accesorios/motor-3-a-6v-con-caja-reductora.jpg', titulo: 'motor c/reductora' },
+            { src: 'accesorios/motor-modelo-130-dc-3v.jpg', titulo: 'motor dc-3v' },
+            { src: 'accesorios/sensor-de-humedad-con-alarma-de-riego.jpg', titulo: 'sensor de humedad' },
+            { src: 'accesorios/sensor-de-humedad-de-suelo-con-conector-gravity-3-pines.jpg', titulo: 'humedad de suelo' },
+            { src: 'accesorios/sensor-de-humedad-y-temperatura-dht22-arduino.jpg', titulo: 'humedad/temperat.' },
+            { src: 'accesorios/sensor-de-temperatura-ds18b20.jpg', titulo: 'sensor de temperatura' },
+            { src: 'accesorios/sensor-infrarrojo-tcrt5000.jpg', titulo: 'sensor infrarrojo' },
+            { src: 'accesorios/sensor-magnetico-para-puertas-y-ventanas.jpg', titulo: 'sensor puertas' },
+            { src: 'accesorios/sensormq7-de-gas-monoxido-de-carbono.jpg', titulo: 'sensor de monoxido' },
+            { src: 'accesorios/sensor-ultrasonico-ultrasonido-hc-sr04-arduino-pic-robotica.jpg', titulo: 'sensor ultrasonico' },
+            { src: 'accesorios/servo-towerpro-mg90s-18kg-torque-metal-compatible-arduino.jpg', titulo: 'servo' },
+            { src: 'accesorios/shield-cargador-de-bateria-18650-con-proteccion-compatible-con-arduino-raspberry-y-otros.jpg', titulo: 'cargador bateria' },
+            { src: 'accesorios/tarjeta-tag-rfid-125khz.jpg', titulo: 'tarjeta tag rfid' },
+            { src: 'accesorios/teclado-membrana-matricial-4x4-autoadhesivo.jpg', titulo: 'teclado membrana' }
+        ]
+    }
+})

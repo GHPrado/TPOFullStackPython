@@ -4,23 +4,21 @@
 
 h1 {
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    border-radius: 10px;
 }
 
-.header {
-    flex-direction: row;
-    text-decoration: none;
+.titulo {
     text-align: center;
 }
 
-
-.titulo {
-    font-weight: bold;
+ul {
     text-align: center;
 }
 
 li {
     display: inline-block;
+
 }
 
 a {
@@ -31,19 +29,22 @@ a {
 /*     COLORES    */
 
 * {
-    background-color: rgb(167, 171, 198);
-    color: rgb(230, 226, 226);
+    background-color: #efe5fd;
+    color: #000000;
 }
 
 h1 {
-    background-color: rgb(8, 129, 16);
-    animation-name: anim;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
+    background-color: #101662;
+    color: rgb(241, 243, 247);
+
+}
+
+a {
+    color: grey;
 }
 
 a:hover {
-    color: rgb(72, 54, 106);
+    color: rgb(124, 123, 125, 10);
 }
 
 
@@ -53,73 +54,33 @@ a:hover {
 
 h1 {
     font-size: 7vw;
+padding: 3vw;
+
 }
 
-.header {
-    grid-column: 1 / 10;
-    grid-row: 1 / 1;
-}
-
-.titulo {
-    margin-top: 0.7vw;
-    grid-column: 1 / 11;
-    grid-row: 2 / 2;
+li {
+    font-size: 2vw;
 }
 
 @media screen and (min-width: 900px) {
-    .header {
-        font-size: 1.5vw;
-    }
-
+    
     li {
-        margin-left: 5%;
-        font-weight: bold;
+        margin: 0 3% 0 3% ;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .header {
-        font-size: 2vw;
-    }
-
+    
     li {
-        margin-left: 4%;
-        font-weight: normal;
+        margin: 0 2% 0 2% ;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .header {
-        font-size: 2.4vw;
-    }
 
     li {
-        margin-left: 2%;
-        font-weight: normal;
+        margin: 0 1% 0 1% ;
     }
 }
 
 
-/* ANINMACIONES */
-
-@keyframes anim {
-    0% {
-        color: rgb(55, 32, 116);
-    }
-
-    25% {
-        color: rgb(38, 8, 88);
-    }
-
-    50% {
-        color: black;
-    }
-
-    75% {
-        color: rgb(38, 8, 88);
-    }
-
-    100% {
-        color: rgb(55, 32, 116);
-    }
-}

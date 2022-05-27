@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/dc9d7040bf.js" crossorigin="anonymous"></script>
 
@@ -21,22 +21,24 @@
 </head>
 
 <body>
-    <section class='container'>
+    <header>
         <script src="encabezado.js"></script>
+        </header>
+        <section class='container'>
+
 
         <div class="left">
 
-            <p>Complete los siguientes datos para contactarnos:</p>
+            <p>COMPLETE LOS SIGUIENTES DATOS PARA CONTACTARNOS:</p>
 
             <form id="form1">
                 <label for="fnombre">Nombre:</label><input type="text" id="fnombre" name="fnombre"><br><br>
                 <label for="fapellido">Apellido:</label><input type="text" id="fapellido" name="fapellido"><br><br>
-                <label for="ftelefono">Telefono:</label><input type="text" id="ftelefono" name="ftelefono"><br><br>
-                <label for="femail">E-Mail:</label><input type="text" id="femail" name="femail"><br><br>
-                <label for="fcoment">Comentario:<textarea name="comentario" rows="10" cols="60"></textarea><br><br>
-
-                    <button type="submit"><i class="fa-solid fa-share-from-square fa-2xl"></i></button>
-                    <button type="reset"><i class="fa-solid fa-trash fa-2xl"></i></button>
+                <label for="ftelefono">Telefono:</label><input type="tel" id="ftelefono" name="ftelefono"><br><br>
+                <label for="femail">E-Mail:</label><input type="email" id="femail" name="femail"><br><br>
+                <label for="fcoment">Comentario:</label><textarea name="comentario" rows="10" cols="60"></textarea>
+                <button type="reset"><i class="fa-solid fa-trash fa-2xl"></i></button>
+                <button type="submit"><i class="fa-solid fa-share-from-square fa-2xl"></i></button>
             </form>
 
         </div>

@@ -1,3 +1,10 @@
+p {
+    text-align: center;
+    background-color: lightgray;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
 img {
     border-radius: 10px;
     display: block;
@@ -13,10 +20,7 @@ img:hover {
 
 /*  RESPONSIVE   */
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
+
 
 img {
     height: 50vh;
@@ -26,6 +30,10 @@ img {
 .left {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column: 1 /10;
+    grid-column: 1 /5;
     grid-row: 3 /3;
+}
+
+a {
+    text-align: center;
 }

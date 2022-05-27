@@ -7,90 +7,22 @@ img {
 
 /*     COLORES    */
 
-.descripcion {
-    color: rgb(38, 8, 88);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+p {
+    background-color: lightgray;
+    padding: 2vw;
+    border-radius: 10px;
 }
 
 
 /*  RESPONSIVE   */
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
-
-.imagen {
-    grid-column: 1 / 11;
-    grid-row: 3 /3;
-}
 
 img {
     height: 50vh;
-    width: 90%;
+    width: 100%;
 }
 
-.descripcion {
-    grid-column: 1 / 11;
-    grid-row: 3 /3;
-    margin: 2% 10%;
-    line-height: 2vw;
-    font-size: 2vw;
+p {
     text-align: justify;
-}
-
-.imagen {
-    animation-name: anim2;
-    animation-duration: 10s;
-    animation-iteration-count: 10s;
-    opacity: 0.95;
-    transition: opacity 2500ms;
-}
-
-.imagen:hover {
-    opacity: 0.05;
-    transition: opacity 2500ms;
-}
-
-
-/* ANINMACIONES */
-
-@keyframes anim2 {
-    0% {
-        opacity: 0.90;
-    }
-
-    12% {
-        opacity: 0.70;
-    }
-
-    25% {
-        opacity: 0.50;
-    }
-
-    37% {
-        opacity: 0.20;
-    }
-
-    50% {
-        opacity: 0.05;
-    }
-
-    62% {
-        opacity: 0.2;
-    }
-
-    75% {
-        opacity: 0.50;
-    }
-
-    87% {
-        opacity: 0.70;
-    }
-
-    100% {
-        opacity: 0.90;
-    }
+    line-height: 2;
 }

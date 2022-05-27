@@ -1,12 +1,12 @@
-/*  RESPONSIVE   */
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+p {
+    text-align: center;
+    background-color: lightgray;
+    padding: 2vw;
+    border-radius: 10px;
 }
 
-.left {
-    grid-column: 1 / 4;
-    grid-row: 3 /3;
-
+iframe {
+    width:90%;
+    height:500px;
+    margin:1% 5%;
 }
